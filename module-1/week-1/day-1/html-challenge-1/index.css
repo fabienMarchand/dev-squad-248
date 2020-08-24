@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+A CSS RULE IS :
+
+1 (or more) selector(s)
+opening curly bracket
+a set of key/value pairs, separated by a semi-colon
+
+ex:
+color: red; background: blue; display: block;
+a closing curly bracket
+*/
+
+
+ul, ol {
+
+}
+
+ul ul,
+ul ol,
+ol ul {
+    margin: 0;
+}
+#list-simple {
+    margin: 42px 0px 42px 42px;
+    
+}
+
+#list-simple li {
+    margin-left: 69px;
+}
+
+
+#list-nested {
+    margin: 42px 0px 42px 42px;
+}
+
+#list-nested2 {
+    margin-left: 42px;
+}
+
+#olist-nested2 {
+    margin-left: 42px;
+}
+
+
+.table td, .table th{
+    border: 1px solid black;
+   
+    margin: 42px;
+    border-collapse: separate;
+}
+
+#table-complex {
+
+}

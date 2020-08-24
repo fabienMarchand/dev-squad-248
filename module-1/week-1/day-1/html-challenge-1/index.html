@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Challenge 1</title>></title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1 class="title">Liste ordonnée</h1>
+     <ol id="list-simple">
+         <li>pouet</li>
+         <li>foo</li>
+         <li>toto</li>
+     </ol>
+     <h1 class="title">Liste imbriqué</h1>
+     <ol id="list-nested">
+         <li>truc</li>
+         <li>truc 2
+            <ul id="list-nested2">
+                <li>first 
+                    <ol id="olist-nested2">
+                        <li>foo</li>
+                        <li>foo</li>
+                        <li>foo</li>
+                    </ol>
+                </li>
+                <li>second</li>
+                <li>troisieme</li>
+            </ul>
+         </li>
+         
+     </ol>
+    <h1 class="tile">Tables</h1>
+    <table id="table-simple" class="table">
+        <tbody>
+            <tr>
+                <td>As</td>
+                <td>Trèfle</td>
+            </tr>
+            <tr>
+                <td>Carreaux</td>
+                <td>Coeur</td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="table-complex" class="table">
+       <thead>
+        <tr>
+            <th colspan="2"></th>
+            <th colspan="2">Premier groupe</th> 
+            <th colspan="2">Deuxième groupe</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>personne</th>
+            <th>singulier</th> 
+            <th>pluriel</th>
+            <th>singulier</th> 
+            <th>pluriel</th>
+        </tr>
+       </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Present</td>
+                <td>1</td>
+                <td>I code</td>
+                <td>i successed</td>
+                <td>we code</td>
+                <td>we successed</td>
+            </tr>
+            <tr>
+               
+                <td>2</td>
+                <td>you code</td>
+                <td>they code</td>
+                <td>you succed</td>
+                <td>they successed</td>
+            </tr>
+            <tr>
+            
+                <td>3</td>
+                <td>he/she codes</td>
+                <td>they code</td>
+                <td>he/she successedr</td>
+                <td>they successed</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
