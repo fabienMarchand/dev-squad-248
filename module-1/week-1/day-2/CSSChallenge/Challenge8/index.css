@@ -1,0 +1,45 @@
+.wrap {
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  margin: 20px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background: green;
+  border-radius: 50%;
+  color:white;
+  text-align: center;
+  line-height: 300%;
+}
+
+.circle.top-right {
+  float: right;
+  clear: both;
+
+}
+
+.circle.top-left {
+  float: left;
+}
+
+
+
+.wrap-down {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 100px;  
+}
+
+.circle.bot-left{ 
+  float:left;
+  clear:both;
+}
+
+.circle.bot-right { 
+  float: right;
+}

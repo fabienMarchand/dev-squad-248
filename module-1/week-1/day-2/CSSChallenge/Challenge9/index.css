@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-container {
+  border: 2px solid black;
+  height: 300px;
+  width: 600px; 
+  margin: 20px;
+}
+
+#container-top {
+  border: 2px solid black;
+ 
+  display: flex;
+  
+}
+
+.box-top{
+  flex: 1;
+  width: 25%;
+}
+
+#container-botleft {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+
+.box-botleft {
+  width: calc(49%-5px);
+  flex: 1;
+}

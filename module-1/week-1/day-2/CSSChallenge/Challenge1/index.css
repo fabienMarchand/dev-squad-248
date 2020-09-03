@@ -1,0 +1,19 @@
+* {
+ box-sizing: border-box;
+}
+
+.parentDiv {
+  background-color: aquamarine;
+  border: 1px solid;
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.redBox {
+  background-color: red;
+  border:4px dotted;
+  height: 100px;
+  width: 100px;
+}

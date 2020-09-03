@@ -1,0 +1,20 @@
+
+table {
+  margin: 10px 0;
+  width: 300px;
+  height: 150px;
+}
+
+table,
+td {
+  border: 1px solid;
+}
+
+/*
+.grayLine {
+  background-color: gray;
+}
+*/
+.grayLine :nth-child(odd) {
+  background-color: gray;
+}
